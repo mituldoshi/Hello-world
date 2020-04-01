@@ -12,6 +12,6 @@ steps:
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
-    testResultsFiles: '$(Common.TestResultsDirectory)'
+    testResultsFiles: '**/TEST-*.xml'
     failTaskOnFailedTests: true
     testRunTitle: 'Published Test Results'
