@@ -12,6 +12,6 @@ steps:
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
-    testResultsFiles: '**/TestResults-*.xml'
+    testResultsFiles: 'C:\Users\mitul.yogesh.doshi\Desktop\vsts-agent-win-x64-2.165.2\_work\1\TestResults\\Results.xml'
     failTaskOnFailedTests: true
     testRunTitle: 'Published Test Results'
